@@ -752,7 +752,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 720838825}
-  verticalRotation: 1
+  verticalRotation: 1.5
   cameraPosition: {x: 1, y: 1, z: -2}
 --- !u!1 &410087039
 GameObject:
