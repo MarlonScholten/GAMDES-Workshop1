@@ -3,7 +3,10 @@
     "com.unity.ide.rider": "3.0.15",
     "com.unity.ide.visualstudio": "2.0.16",
     "com.unity.ide.vscode": "1.2.5",
+<<<<<<< HEAD
+=======
     "com.unity.render-pipelines.universal": "13.1.8",
+>>>>>>> c2d5931e71d19f7ba604e7c2c775170be273d6f7
     "com.unity.test-framework": "1.1.33",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.7.1",
