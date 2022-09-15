@@ -1,24 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+
     public GameObject player;
-    public float verticalRotation;
-    public Vector3 cameraPosition;
-    private Transform _target;
+    [SerializeField] private Vector3 offset = new Vector3(0, 4, -6);
 
-    private void Awake()
+    // Update is called once per frame
+    void LateUpdate()
     {
-        _target = player.transform;
-    }
-    private void Update()
-    {
-        Look();
-    }
+        // Offset the camera behind the player by adding to the players position
+        transform.position = player.transform.position + offset;
 
-    private void Look()
-    {
-        transform.position = _target.TransformPoint(cameraPosition);
-        transform.LookAt(_target.position + new Vector3(0f, verticalRotation, 0f));
     }
 }
