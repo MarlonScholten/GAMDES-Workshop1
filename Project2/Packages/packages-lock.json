@@ -1,7 +1,5 @@
 {
   "dependencies": {
-<<<<<<< HEAD
-=======
     "com.unity.burst": {
       "version": "1.7.3",
       "depth": 1,
@@ -11,7 +9,6 @@
       },
       "url": "https://packages.unity.com"
     },
->>>>>>> c2d5931e71d19f7ba604e7c2c775170be273d6f7
     "com.unity.collab-proxy": {
       "version": "1.17.1",
       "depth": 0,
@@ -53,8 +50,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-=======
     "com.unity.mathematics": {
       "version": "1.2.6",
       "depth": 1,
@@ -62,7 +57,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
->>>>>>> c2d5931e71d19f7ba604e7c2c775170be273d6f7
     "com.unity.nuget.newtonsoft-json": {
       "version": "3.0.2",
       "depth": 2,
@@ -70,8 +64,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-=======
     "com.unity.render-pipelines.core": {
       "version": "13.1.8",
       "depth": 1,
@@ -100,7 +92,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
->>>>>>> c2d5931e71d19f7ba604e7c2c775170be273d6f7
     "com.unity.services.core": {
       "version": "1.4.2",
       "depth": 1,
@@ -112,8 +103,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
-=======
     "com.unity.shadergraph": {
       "version": "13.1.8",
       "depth": 1,
@@ -123,7 +112,6 @@
         "com.unity.searcher": "4.9.2"
       }
     },
->>>>>>> c2d5931e71d19f7ba604e7c2c775170be273d6f7
     "com.unity.test-framework": {
       "version": "1.1.33",
       "depth": 0,
