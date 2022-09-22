@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
 {
     public Camera camera;
     private NavMeshAgent agent;
-    private float reviveCount;
     public float playerHealth;
     public float reviveCounter;
     // public Transform moveToPosition;
@@ -25,7 +24,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(reviveCount);
+        Debug.Log(reviveCounter);
         if (Input.GetMouseButtonDown(0))
         {
             Ray ray = camera.ScreenPointToRay(Input.mousePosition);
