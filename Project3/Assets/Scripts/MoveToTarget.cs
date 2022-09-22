@@ -29,7 +29,7 @@ public class MoveToTarget : MonoBehaviour
         }
         else
         {
-            _navMeshAgent.ResetPath();
+            Revive();
         }
     }
 
@@ -38,7 +38,7 @@ public class MoveToTarget : MonoBehaviour
         _navMeshAgent.SetDestination(target);
     }
 
-    public void Revive()
+    private void Revive()
     {
         revived = true;
         GetComponent<Renderer>().material = reviveMaterial;
