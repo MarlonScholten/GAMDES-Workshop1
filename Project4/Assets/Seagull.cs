@@ -32,7 +32,7 @@ public class Seagull : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            seagullRb.AddForce(-transform.forward * 100f);
+            seagullRb.AddForce(-transform.forward * 1000f);
             seagull.ResetPath();
            // Vector3 lookDirection = (transform.position - player.transform.position);
         }
