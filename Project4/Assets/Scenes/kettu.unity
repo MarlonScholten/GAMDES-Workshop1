@@ -515,6 +515,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PressurePlate
       objectReference: {fileID: 0}
+    - target: {fileID: 8001739222031146503, guid: 008e97ea45d3ed349842fc1c6bb69172,
+        type: 3}
+      propertyPath: aud
+      value: 
+      objectReference: {fileID: 2091904164}
+    - target: {fileID: 8001739222031146503, guid: 008e97ea45d3ed349842fc1c6bb69172,
+        type: 3}
+      propertyPath: boat.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1983760338}
+    - target: {fileID: 8001739222031146503, guid: 008e97ea45d3ed349842fc1c6bb69172,
+        type: 3}
+      propertyPath: boat.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Visible
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 008e97ea45d3ed349842fc1c6bb69172, type: 3}
@@ -589,7 +604,7 @@ PrefabInstance:
     - target: {fileID: 6442712095751590486, guid: c6783aebe17c3fd47a8ca04ffc7be049,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -913,3 +928,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304752985}
   m_CullTransparentMesh: 1
+--- !u!114 &1983760338 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -1977803749125036547, guid: c6783aebe17c3fd47a8ca04ffc7be049,
+    type: 3}
+  m_PrefabInstance: {fileID: 792999680}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 847c326dbb25a7a4f97782a2770b0b23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &2091904164 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7171466090246680165, guid: 008e97ea45d3ed349842fc1c6bb69172,
+    type: 3}
+  m_PrefabInstance: {fileID: 676072130}
+  m_PrefabAsset: {fileID: 0}

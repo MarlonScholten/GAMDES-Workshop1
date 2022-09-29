@@ -21,7 +21,7 @@ public class PressurePlate : MonoBehaviour
             if (collision.transform.CompareTag("Player")) {
                 Debug.Log("Pressure plate trigger");
                 transform.position += new Vector3(0, -0.1f, 0);
-                //aud.Play();
+                aud.Play();
                 pressed = true;
                 boat.Invoke();
             }
